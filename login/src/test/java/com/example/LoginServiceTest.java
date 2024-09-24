@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class LoginTest {
-    private Login login;
+public class LoginServiceTest {
+    private LoginService login;
 
     @BeforeEach
     public void setUp() {
-        login = new Login();
+        login = new LoginService();
     }
 
     @Test

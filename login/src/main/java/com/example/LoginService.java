@@ -1,6 +1,6 @@
 package com.example;
 
-public class Login {
+public class LoginService {
     private String validUsername = "user";
     private String validPassword = "password123";
 

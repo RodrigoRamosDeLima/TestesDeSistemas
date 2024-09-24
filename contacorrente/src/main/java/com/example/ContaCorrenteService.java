@@ -1,10 +1,10 @@
 package com.example;
 
-public class ContaCorrente {
+public class ContaCorrenteService {
     private double saldo;
     private String nome;
 
-    public ContaCorrente(String nome, double saldo) {
+    public ContaCorrenteService(String nome, double saldo) {
         this.nome = nome;
         this.saldo = saldo;
     }
